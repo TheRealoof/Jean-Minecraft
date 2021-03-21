@@ -1,0 +1,7 @@
+<h1>Modlist</h1>
+
+<div *ngFor="let mod of mods">
+    <app-mod [mod]="mod" (dlWanted)="dlClicked($event)"></app-mod>
+</div>
+
+<button (click)="goBack()">Retour</button>

@@ -1,0 +1,9 @@
+.banner
+{
+    position: absolute;
+    top: 0;
+    height: 90%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
